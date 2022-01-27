@@ -51,3 +51,8 @@ rm -rf app
 # copy your app over
 cp -R ../my-old-remix-app/app app
 ```
+
+### Deploy
+```sh
+ssh winter@mars "sh /home/winter/remix-blog/deploy.sh"
+```
